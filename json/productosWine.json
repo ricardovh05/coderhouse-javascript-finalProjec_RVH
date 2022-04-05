@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "nombre": "Obxi",
+        "viñedo": "Bodega de Bothe",
+        "tipoDeUva": "Uva Salvador",
+        "precio": 250,
+        "stock": 40,
+        "img": "./img/vino1.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Acacholli",
+        "viñedo": "Bodega de Bothe",
+        "tipoDeUva": "Uva Salvador",
+        "precio": 200,
+        "stock": 25,
+        "img": "./img/vino2.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Nosotros",
+        "viñedo": "La Redonda",
+        "tipoDeUva": "Uva Ruby",
+        "precio": 165,
+        "stock": 20,
+        "img": "./img/vino3.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Pretexto",
+        "viñedo": "Viñedos Azteca",
+        "tipoDeUva": "Uva Merlot",
+        "precio": 450,
+        "stock": 15,
+        "img": "./img/vino4.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Misiones",
+        "viñedo": "Los Rosales",
+        "tipoDeUva": "Uva Nebbiolo",
+        "precio": 220,
+        "stock": 15,
+        "img": "./img/vino5.jpg"
+    },
+
+    {
+        "id": 6,
+        "nombre": "Padre e hijo",
+        "viñedo": "San Patricio",
+        "tipoDeUva": "Uva Cavernet",
+        "precio": 880,
+        "stock": 5,
+        "img": "./img/vino6.jpg"
+    }
+
+]

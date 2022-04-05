@@ -1,0 +1,104 @@
+/* ------------------------- */
+/* Estilos Generales */
+/* ------------------------- */
+
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+
+body { 
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.texto-dorado {
+    font-weight: 700;
+    color: #475729;
+}
+
+.texto-vino {
+    font-weight: 300;
+    color: #6D454F;
+}
+
+.texto-negro {
+	color: #000;
+}
+
+#fp-nav ul li a span {
+    background: #6D454F;
+}
+
+#fp-nav ul li .fp-tooltip {
+    color:#6D454F;
+}
+
+.nav {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 70;
+    width: 100%;
+    margin: 0;
+    padding: 10px 20px;
+    background: #fff;
+}
+
+.nav li,
+.nav a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Oswald'c, sans-serif;
+    font-size: 19px;
+    color: #6D454F;
+    transition: .5 ease;
+}
+
+.nav li.active{
+    border-bottom: 2px solid #475729;
+
+}
+
+.menu li a {
+    transition: .5s ease;
+    margin: 0;
+    padding: 0;
+}
+.menu li.active a,
+.menu li:hover a {
+    color: #475729;
+}
+.header {
+    background: url('../img/DeBarrica-png.png');
+    background-position: center;
+}
+
+.header .contenedor-titulo{
+    text-align: center;
+    position: relative;
+    z-index: 99;
+}
+.header .contenedor-icono{
+    position: absolute;
+    z-index: 99;
+    bottom: 3%;
+    left: 50%;
+    font-size: 40px;
+    animation: bajar-subir 1s ease infinite;
+}
+
+@keyframes bajar-subir {
+    0% {transform: translateY(20px);}
+    25% {transform: translateY(0);}
+    100% {transform: translateY(20px);}
+}

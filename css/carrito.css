@@ -1,0 +1,131 @@
+#divisor{
+    display: flex;
+    background-color: #fff;
+    border: 5px solid #6D454F;
+    width: 60%;
+    height: 79%;
+    border-radius: 20px;
+    margin: auto;
+   
+}
+.divisor1{
+    width: 50%;
+    color: #6D454F;
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+    font-size: 18px;
+    align-items: center;
+    height: 100%;
+    display: inline;
+    
+}
+.divisor2{
+    width: 50%;
+    color: #6D454F;
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+    font-size: 18px;
+    position: relative;
+}
+.cajaProductoCarrito {
+    background-color: #fff;
+    border: 2px solid #6D454F;
+    color: #6D454F;
+    position:relative;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    text-align: right;
+    font-size: 20px;
+}
+.borrar{
+    background-color: red;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-right: 1rem;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 1rem;
+    
+}
+
+.vaciar{
+    background-color: red;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 30px;
+    font-size:20px;
+    
+    
+}
+
+.total{
+    text-align: center;
+    width: 200px;
+    border: 2px solid #6D454F;
+    border-radius: 5px;
+    margin: 50px;
+    padding-bottom: 10px;
+    position:relative;
+}
+
+#pago{
+    padding: auto;
+    text-align: center;
+    font-size: 40px;
+}
+
+#prod{
+    padding: auto;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 5%;
+}
+
+.pagoLetras{
+    color: #6D454F
+}
+.totalDetails{
+    color: #6D454F;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+#pagar{
+    background-color:green;
+    color: #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 60px;
+    font-size:20px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 25%;
+    margin-top: 3%;
+
+}
+
+#pagar2{
+    background-color:green;
+    color: #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 60px;
+    font-size:20px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 25%;
+    margin-top: 3%;
+}
+
+#visa{
+    width: 260px;
+    height: 125px;
+    margin-left: 20%;
+    margin-top: 20% ;
+    object-fit: contain;
+    margin-bottom: 2%;
+}

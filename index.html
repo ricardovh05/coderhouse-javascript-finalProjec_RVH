@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Proyecto Final - ECOMMERCE de Vinos</title>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Oswald&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos1.css">
+	<link rel="stylesheet" href="css/estilos2.css">
+	<link rel="stylesheet" href="css/carrito.css">
+	<link rel="icon" href="../img/barril.ico">
+</head>
+<body>
+	<nav class="nav">
+		<a href="#inicio" class="marca">DeBarrica</a>
+		<ul id="menu" class="menu">
+			<li data-menuanchor="inicio" class="active">
+				<a href="#inicio">Inicio</a>
+			</li>
+			<li data-menuanchor="catalogo" class="active">
+				<a href="#catalogo">Catalogo</a>
+			</li>
+			<li data-menuanchor="carrito" class="active">
+				<a href="#carrito">Carrito</a>
+			</li>
+		</ul>
+	</nav>
+	<main id="fullpage">
+		<header class="section header">
+			<div class="contenedor-titulo"></div>
+			<div class="contenedor-icono">
+				<p><a href="#catalogo" class="texto-vino"><i class="fas fa-chevron-down"></i></a></p>
+			</div>
+		</header>
+		<section class="section">
+			<div id="seccionCatalogo"></div>
+		</section>
+		<footer class="section">
+			
+        	<div id="divisor">
+				<div class="divisor1">
+					<p id="pago" class="pagoLetras">Metodos de pago</p>
+					<img src="../img/visa.jpg" id="visa">
+					<button id="pagar">Pagar</button>
+					<button id="pagar2">Transferencia Bancaria</button>
+				</div>
+				<div class="divisor2">
+					<p id="prod" class="pagoLetras">Carrito</p>
+					<ul id="vinosCarrito"></ul>
+					<button id="boton-vaciar" class="vaciar">Vaciar</button>
+					<div id="divisor3">
+            		<div class="totalDetails">Total: &dollar;<span id="total"></span></div>
+            		<div class="totalDetails">Productos en Carrito: <span id="productosEnCarrito"></span> Botellas de Vino</div>
+					</div>					
+					
+				</div>
+				
+			</div>
+			
+		</footer>
+	</main>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/proyectoFinal.js"></script>
+</body>
+</html>
